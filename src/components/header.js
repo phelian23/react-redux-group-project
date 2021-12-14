@@ -13,7 +13,7 @@ const Header = () => (
         <Link className="links" to="/">Rockets</Link>
       </div>
       <div className="col text-end links">
-        <Link className="links" to="/">Missions</Link>
+        <Link className="links" to="/missions">Missions</Link>
       </div>
       <div className="col text-end links spacer">
         <Link className="links" to="/myprofile">My Profile</Link>
