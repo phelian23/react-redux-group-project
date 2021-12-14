@@ -25,8 +25,17 @@
   margin: auto;
 }
 
+th, td {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
 .mission-data1 {
   width: 13%;
+}
+
+tr :first-child {
+  vertical-align: text-top;
 }
 
 .mission-data2 {
