@@ -10,7 +10,7 @@ const Profile = () => {
       <section className="row">
         <div className="col-6">
           <h3>My Missions</h3>
-          <ul>
+          <ul className="profile-list">
             {missions.map((mission) => (
               <li key={mission.mission_id}>{mission.mission_name}</li>
             ))}
