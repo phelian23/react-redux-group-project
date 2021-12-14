@@ -19,3 +19,24 @@
   height: 50px;
   margin: 10px;
 }
+
+.mission-table {
+  width: 80vw;
+  margin: auto;
+}
+
+.mission-data1 {
+  width: 13%;
+}
+
+.mission-data2 {
+  width: 55%;
+}
+
+.mission-data3 {
+  width: 13%;
+}
+
+.mission-data4 {
+  width: 19%;
+}
