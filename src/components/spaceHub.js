@@ -5,10 +5,8 @@ import MyProflie from './myProfile';
 
 const SpaceHub = () => (
   <div>
+    <Header />
     <Switch>
-      <Route exact path="/">
-        <Header />
-      </Route>
       <Route path="/myprofile">
         <MyProflie />
       </Route>
