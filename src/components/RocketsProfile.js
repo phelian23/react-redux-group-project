@@ -6,7 +6,6 @@ const RocketProfile = () => {
   const renderReservedRockets = () => reservedRockets.map((rocket) => (
     <tr key={rocket.id}>
       <th>
-        🚀 &nbsp;
         {rocket.name}
       </th>
     </tr>

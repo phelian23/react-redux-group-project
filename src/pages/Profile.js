@@ -8,7 +8,7 @@ const Profile = () => {
 
   return (
     <main className="container">
-      <section className="row">
+      <section className="row align-top p-2">
         <div className="col-6">
           <h3>My Missions</h3>
           <ul className="profile-list">
@@ -18,8 +18,7 @@ const Profile = () => {
           </ul>
         </div>
         <div className="col-6">
-          <h3>My Rockets</h3>
-          <div className="row align-top p-5">
+          <div className="row align-top p-2">
             <div className="col">
               <RocketProfile />
             </div>
