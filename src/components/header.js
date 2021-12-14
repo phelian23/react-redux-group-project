@@ -10,7 +10,7 @@ const Header = () => (
         Space Travellers&apos; Hub
       </div>
       <div className="col text-end links">
-        <NavLink className="links" to="/" exact="true" activeClassName="active-link">Rockets</NavLink>
+        <NavLink className="links" to="/" exact activeClassName="active-link">Rockets</NavLink>
       </div>
       <div className="col text-end links">
         <NavLink className="links" to="/missions" activeClassName="active-link">Missions</NavLink>

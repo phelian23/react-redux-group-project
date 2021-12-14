@@ -65,3 +65,14 @@ td p {
 td button {
   padding: 3px;
 }
+
+.profile-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-list li {
+  border: 1px solid gray;
+  padding: 7px;
+}

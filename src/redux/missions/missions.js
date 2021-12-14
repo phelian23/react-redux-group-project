@@ -21,6 +21,13 @@ const extractMissions = (data) => {
   return missions;
 };
 
+const hasDispatched = (prevState, dataArray) => {
+  if (prevState.length === 0) {
+    return [...prevState, ...dataArray];
+  }
+  return [...prevState];
+};
+
 export const fetchMissions = () => async (dispatch) => {
   try {
     const data = await getMissions();
@@ -36,7 +43,7 @@ export const joinMissions = (id) => ({ type: JOIN_MISSIONS, payload: id });
 const missionReducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_MISSIONS:
-      return [...state, ...action.payload];
+      return hasDispatched(state, action.payload);
 
     case JOIN_MISSIONS:
       return state.map((mission) => {
