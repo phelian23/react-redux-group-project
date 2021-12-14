@@ -16,7 +16,7 @@ const Header = () => (
         <Link className="links" to="/">Missions</Link>
       </div>
       <div className="col text-end links spacer">
-        <Link className="links" to="/categories">My Profile</Link>
+        <Link className="links" to="/myprofile">My Profile</Link>
       </div>
     </div>
   </div>
