@@ -14,6 +14,10 @@
   padding-right: 30px;
 }
 
+.active-link {
+  text-decoration: underline;
+}
+
 .logoImg {
   width: 50px;
   height: 50px;

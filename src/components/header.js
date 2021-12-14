@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import planet from '../planet.svg';
 
 const Header = () => (
@@ -10,13 +10,17 @@ const Header = () => (
         Space Travellers&apos; Hub
       </div>
       <div className="col text-end links">
-        <Link className="links" to="/">Rockets</Link>
+        <NavLink className="links" to="/" exact="true" activeClassName="active-link">Rockets</NavLink>
       </div>
       <div className="col text-end links">
+<<<<<<< HEAD
         <Link className="links" to="/missions">Missions</Link>
+=======
+        <NavLink className="links" to="/missions" activeClassName="active-link">Missions</NavLink>
+>>>>>>> rockets-fetch
       </div>
       <div className="col text-end links spacer">
-        <Link className="links" to="/myprofile">My Profile</Link>
+        <NavLink className="links" to="/profile" activeClassName="active-link">My Profile</NavLink>
       </div>
     </div>
   </div>
