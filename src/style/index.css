@@ -54,3 +54,14 @@ tr :first-child {
 .mission-data4 {
   width: 19%;
 }
+
+td p {
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  border-radius: 7px;
+}
+
+td button {
+  padding: 3px;
+}
