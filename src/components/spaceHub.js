@@ -1,8 +1,9 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Header from './header';
-import MyProflie from './myProfile';
+import Proflie from '../pages/Profile';
 import MissionsPage from './missions/missionsPage';
+import RocketsPage from '../pages/RocketsPage';
 
 const SpaceHub = () => (
   <div>
@@ -11,8 +12,11 @@ const SpaceHub = () => (
       <Route path="/missions">
         <MissionsPage />
       </Route>
-      <Route path="/myprofile">
-        <MyProflie />
+      <Route path="/myProfile">
+        <Proflie />
+      </Route>
+      <Route exact path="/">
+        <RocketsPage />
       </Route>
     </Switch>
   </div>

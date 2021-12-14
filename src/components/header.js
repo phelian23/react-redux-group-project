@@ -13,14 +13,10 @@ const Header = () => (
         <NavLink className="links" to="/" exact="true" activeClassName="active-link">Rockets</NavLink>
       </div>
       <div className="col text-end links">
-<<<<<<< HEAD
-        <Link className="links" to="/missions">Missions</Link>
-=======
         <NavLink className="links" to="/missions" activeClassName="active-link">Missions</NavLink>
->>>>>>> rockets-fetch
       </div>
       <div className="col text-end links spacer">
-        <NavLink className="links" to="/profile" activeClassName="active-link">My Profile</NavLink>
+        <NavLink className="links" to="/myProfile" activeClassName="active-link">My Profile</NavLink>
       </div>
     </div>
   </div>

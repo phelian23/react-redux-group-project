@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import getMissions from '../../components/missions/missionsApi';
 
 const FETCH_MISSIONS = 'spaceHub/missions/FETCH_MISSIONS';
@@ -35,31 +34,9 @@ const missionReducer = (state = initialState, action) => {
     case FETCH_MISSIONS:
       return [...state, ...action.payload];
 
-=======
-const SUCCESS_MISSION = 'SUCCESS_MISSION';
-
-const initialState = [];
-
-export const successMission = (payload) => ({
-  type: SUCCESS_MISSION,
-  payload,
-});
-
-const reducer = (state = initialState, action) => {
-  switch (action.type) {
-    case SUCCESS_MISSION: {
-      return Object.keys(action.payload).map((key) => ({
-        id: key,
-      }));
-    }
->>>>>>> rockets-fetch
     default:
       return state;
   }
 };
 
-<<<<<<< HEAD
 export default missionReducer;
-=======
-export default reducer;
->>>>>>> rockets-fetch
