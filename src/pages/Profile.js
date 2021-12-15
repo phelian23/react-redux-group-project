@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import RocketProfile from '../components/RocketsProfile';
 
 const Profile = () => {
   const allMissions = useSelector((state) => state.missionReducer);
@@ -7,7 +8,7 @@ const Profile = () => {
 
   return (
     <main className="container">
-      <section className="row">
+      <section className="row align-top p-2">
         <div className="col-6">
           <h3>My Missions</h3>
           <ul className="profile-list">
@@ -17,7 +18,11 @@ const Profile = () => {
           </ul>
         </div>
         <div className="col-6">
-          <h3>My Rockets</h3>
+          <div className="row align-top p-2">
+            <div className="col">
+              <RocketProfile />
+            </div>
+          </div>
         </div>
       </section>
     </main>
