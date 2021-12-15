@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.links {
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.spacer::before {
+  content: " | ";
+  padding-right: 30px;
+}
+
+.active-link {
+  text-decoration: underline;
+}
+
+.logoImg {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.mission-table {
+  width: 80vw;
+  margin: auto;
+  font-size: 18px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.mission-data1 {
+  width: 13%;
+}
+
+tr :first-child {
+  vertical-align: text-top;
+}
+
+.mission-data2 {
+  width: 55%;
+}
+
+.mission-data3 {
+  width: 13%;
+}
+
+.mission-data4 {
+  width: 19%;
+}
+
+td p {
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  border-radius: 7px;
+}
+
+td button {
+  padding: 6px 15px;
+  border-radius: 5px;
+  border: 0;
+  background: #0290ff;
+  color: #fff;
+}
+
+.profile-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-list li {
+  border: 1px solid gray;
+  padding: 7px;
+}
+
+.col-6 h3 {
+  font-size: 38px;
+}
+
+.d-flex p {
+  border-radius: 0.3rem;
+}
