@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-redux-group-project/static/css/main.2b6648f7.chunk.css",
+    "main.js": "/react-redux-group-project/static/js/main.42ffd4fd.chunk.js",
+    "main.js.map": "/react-redux-group-project/static/js/main.42ffd4fd.chunk.js.map",
+    "runtime-main.js": "/react-redux-group-project/static/js/runtime-main.ae40dbc4.js",
+    "runtime-main.js.map": "/react-redux-group-project/static/js/runtime-main.ae40dbc4.js.map",
+    "static/js/2.0511b913.chunk.js": "/react-redux-group-project/static/js/2.0511b913.chunk.js",
+    "static/js/2.0511b913.chunk.js.map": "/react-redux-group-project/static/js/2.0511b913.chunk.js.map",
+    "index.html": "/react-redux-group-project/index.html",
+    "static/css/main.2b6648f7.chunk.css.map": "/react-redux-group-project/static/css/main.2b6648f7.chunk.css.map",
+    "static/js/2.0511b913.chunk.js.LICENSE.txt": "/react-redux-group-project/static/js/2.0511b913.chunk.js.LICENSE.txt",
+    "static/media/planet.a63017b2.svg": "/react-redux-group-project/static/media/planet.a63017b2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae40dbc4.js",
+    "static/js/2.0511b913.chunk.js",
+    "static/css/main.2b6648f7.chunk.css",
+    "static/js/main.42ffd4fd.chunk.js"
+  ]
+}
