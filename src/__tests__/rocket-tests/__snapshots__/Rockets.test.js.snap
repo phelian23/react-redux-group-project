@@ -1,3 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Check if all components are rendered Mission page 1`] = `
+<table
+  className="mission-table"
+>
+  <thead>
+    <tr>
+      <th
+        className="mission-data1"
+      >
+        Mission
+      </th>
+      <th
+        className="mission-data2"
+      >
+        Description
+      </th>
+      <th
+        className="mission-data3"
+      >
+        status
+      </th>
+      <th
+        className="mission-data4"
+      >
+        .
+      </th>
+    </tr>
+  </thead>
+  <tbody />
+</table>
+`;
+
 exports[`Check if all components are rendered renders correctly 1`] = `<div />`;
