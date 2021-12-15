@@ -27,6 +27,7 @@
 .mission-table {
   width: 80vw;
   margin: auto;
+  font-size: 18px;
 }
 
 th,
@@ -63,7 +64,11 @@ td p {
 }
 
 td button {
-  padding: 3px;
+  padding: 6px 15px;
+  border-radius: 5px;
+  border: 0;
+  background: #0290ff;
+  color: #fff;
 }
 
 .profile-list {

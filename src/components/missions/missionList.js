@@ -23,6 +23,7 @@ const MissionList = ({ mission }) => {
   const joinedBtnStyle = {
     color: 'red',
     border: '1px solid red',
+    backgroundColor: '#fff',
   };
 
   const joinStatusStyle = {
