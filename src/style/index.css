@@ -80,3 +80,7 @@ td button {
 .col-6 h3 { 
   font-size: 38px;
 }
+
+.d-flex p {
+  border-radius: 0.3rem;
+}

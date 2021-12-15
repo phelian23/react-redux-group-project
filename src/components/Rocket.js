@@ -27,7 +27,7 @@ const Rocket = (props) => {
         <p>{description}</p>
         <div className="d-flex">
           <button type="button" className="btn btn-primary" onClick={manageReservation}>{reserved === 'true' ? 'Cancel Reservation' : 'Reserve Rocket'}</button>
-          {reserved === 'true' ? <p className="mx-4 my-auto bg-danger p-1 text-light"> Reserved </p> : <p> </p>}
+          {reserved === 'true' ? <p className="mx-5 my-auto bg-success p-2 text-light"> Reserved </p> : <p> </p>}
         </div>
       </div>
     </div>
